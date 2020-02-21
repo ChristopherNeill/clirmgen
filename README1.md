@@ -1,4 +1,4 @@
-Readme Generator
+##Readme Generator
 
         ![Visitors in today](https://visitor-count-badge.herokuapp.com/today.svg?repo_id=ChristopherNeill.clirmgen)
         ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
@@ -6,7 +6,7 @@ Readme Generator
         ​
         ## Description
         ​
-        This is a program written in javascript invoked by the node command to generate a readme for your project on the fly
+        This is a program written in javascript invoked by node to create a readme for your project on the fly
         ​
         ## Table of Contents 
         * [Installation](#installation)
@@ -29,7 +29,7 @@ Readme Generator
         ```
         ## Usage
         ​
-        all dependencies are accounted for
+        all dependecies included
         ​
         ## License
         ​
