@@ -1,4 +1,4 @@
-##Readme Generator
+# Readme Generator
 
 ![Visitors in today](https://visitor-count-badge.herokuapp.com/today.svg?repo_id=ChristopherNeill.clirmgen)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
@@ -6,7 +6,7 @@
 ​
 ## Description
 
-This is a program written in javascript to make a readme for your program on the fly
+A command line interface written in javascript invoked by node to create a readme file for your program on the fly 
 
 ## Table of Contents 
 * [Installation](#installation)

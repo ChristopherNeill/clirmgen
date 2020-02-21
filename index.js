@@ -79,7 +79,7 @@ const fs = require("fs");
         let gitImg = gitResponse.data.avatar_url;
 
         let content = 
-`##${answers.projectName}
+`# ${answers.projectName}
 
 ![Visitors in today](https://visitor-count-badge.herokuapp.com/today.svg?repo_id=ChristopherNeill.clirmgen)
 ![License](${answersURL})
