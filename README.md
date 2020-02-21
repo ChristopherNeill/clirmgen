@@ -6,7 +6,7 @@
         ​
         ## Description
         ​
-        This is a program written in javascript invoked by node to create a readme for your project on the fly
+        this is a program written in javascript to creare a readme for your program on the fly
         ​
         ## Table of Contents 
         * [Installation](#installation)
@@ -24,12 +24,12 @@
         ## Installation
         ​
         To install necessary dependencies, run the following command:
-        ```
+        ---
         npm i
-        ```
+       ---
         ## Usage
         ​
-        all dependecies included
+        dependecies included
         ​
         ## License
         ​
@@ -42,9 +42,9 @@
         ## Tests
         ​
         To run tests, run the following command:
-        ```
+        ---
         npm test
-        ```
+        ---
        
         ## Questions
         

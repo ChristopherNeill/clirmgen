@@ -104,9 +104,9 @@ const fs = require("fs");
         ## Installation
         ​
         To install necessary dependencies, run the following command:
-        \`\`\`
+        ---
         ${answers.dependencies}
-        \`\`\`
+       ---
         ## Usage
         ​
         ${answers.userKnowledge}
@@ -122,9 +122,9 @@ const fs = require("fs");
         ## Tests
         ​
         To run tests, run the following command:
-        \`\`\`
+        ---
         ${answers.tests}
-        \`\`\`
+        ---
        
         ## Questions
         
