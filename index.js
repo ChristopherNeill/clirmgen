@@ -78,59 +78,60 @@ const fs = require("fs");
 
         let gitImg = gitResponse.data.avatar_url;
 
-        let content = `##${answers.projectName}
+        let content = 
+`##${answers.projectName}
 
-        ![Visitors in today](https://visitor-count-badge.herokuapp.com/today.svg?repo_id=ChristopherNeill.clirmgen)
-        ![License](${answersURL})
+![Visitors in today](https://visitor-count-badge.herokuapp.com/today.svg?repo_id=ChristopherNeill.clirmgen)
+![License](${answersURL})
+
+​
+## Description
+
+${answers.projectInfo}
+
+## Table of Contents 
+* [Installation](#installation)
+
+* [Usage](#usage)
+​
+* [License](#license)
+
+* [Contributing](#contributing)
+
+* [Tests](#tests)
+
+* [Questions](#questions)
+
+## Installation
+
+To install necessary dependencies, run the following command:
+\`\`\`
+${answers.dependencies}
+\`\`\`
+## Usage
+​
+${answers.userKnowledge}
+
+## License
+
+This project is licensed under the ${answers.license} license.
+
+## Contributing
+
+${answers.contributing}
+
+## Tests
+
+To run tests, run the following command:
+\`\`\`
+${answers.tests}
+\`\`\`
+
+## Questions
         
-        ​
-        ## Description
-        ​
-        ${answers.projectInfo}
-        ​
-        ## Table of Contents 
-        * [Installation](#installation)
-        ​
-        * [Usage](#usage)
-        ​
-        * [License](#license)
-        ​
-        * [Contributing](#contributing)
-        ​
-        * [Tests](#tests)
-        ​
-        * [Questions](#questions)
-        ​
-        ## Installation
-        ​
-        To install necessary dependencies, run the following command:
-        ---
-        ${answers.dependencies}
-       ---
-        ## Usage
-        ​
-        ${answers.userKnowledge}
-        ​
-        ## License
-        ​
-        This project is licensed under the ${answers.license} license.
-          
-        ## Contributing
-        ​
-        ${answers.contributing}
-        ​
-        ## Tests
-        ​
-        To run tests, run the following command:
-        ---
-        ${answers.tests}
-        ---
-       
-        ## Questions
-        
-        <img src="${gitImg}" alt="avatar" style="border-radius: 16px" width="30" />
-        ​
-        If you have any questions about the repo, contact [${answers.username}]`;
+<img src="${gitImg}" alt="avatar" style="border-radius: 16px" width="30" />
+
+If you have any questions about the repo, contact [${answers.username}]`;
         
         fs.writeFile("README1.md",content, function (err){} )
         });
