@@ -6,7 +6,7 @@ Readme Generator
         ​
         ## Description
         ​
-        This is a command line interface that is invoked with node to create a readme for your project on the fly
+        This is a program written in javascript invoked by the node command to generate a readme for your project on the fly
         ​
         ## Table of Contents 
         * [Installation](#installation)
@@ -29,7 +29,7 @@ Readme Generator
         ```
         ## Usage
         ​
-        dependencies node modules 
+        all dependencies are accounted for
         ​
         ## License
         ​
@@ -50,4 +50,4 @@ Readme Generator
         
         <img src="https://avatars0.githubusercontent.com/u/58280924?v=4" alt="avatar" style="border-radius: 16px" width="30" />
         ​
-        If you have any questions about the repo, contact [{response.login}]({response.html_url}).
+        If you have any questions about the repo, contact [ChristopherNeill]

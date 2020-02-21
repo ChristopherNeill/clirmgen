@@ -130,7 +130,7 @@ const fs = require("fs");
         
         <img src="${gitImg}" alt="avatar" style="border-radius: 16px" width="30" />
         ​
-        If you have any questions about the repo, contact [{response.login}]({response.html_url}).`;
+        If you have any questions about the repo, contact [${answers.username}]`;
         
         fs.writeFile("README1.md",content, function (err){} )
         });
